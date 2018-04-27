@@ -1,0 +1,154 @@
+.color{background:rgba(240, 240, 240, 0.918);}
+#descript-action .active{background:#600f0f }
+li>a,#txt-c{color:#600f0f}
+#color-h{background-color:#600f0f;color:white;}
+.msg{display:none;color:red;font-size:25px; font-weight:bold;}
+.txt-w{color:white; font-size: 20px;}
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*
+{
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  background: url('../img/restore_password_2.jpg'), #444;
+  /* background: #eee; */
+  background-blend-mode: overlay;
+  background-size: auto;
+  background-position: right left;
+}
+
+.container > p
+{
+  margin-bottom: 40px;
+}
+
+h1, p
+{
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 1;
+}
+
+h1
+{
+  font-size: 3em;
+  color: #fff;
+  filter: drop-shadow(0 3px 7px rgba(0,0,0,.7));
+}
+
+p
+{
+  color: #ccc;
+}
+
+#main-nav img
+{
+  width: 30%;
+  transition: all .2s ease-in-out;
+}
+
+section
+{
+  margin-top: 70px;
+}
+
+section p
+{
+  margin: 10px;
+  text-align: left;
+}
+
+.navbar
+{
+  height: 70px;
+  filter: drop-shadow(0 3px 7px rgba(0,0,0,.7));
+}
+
+.restore_password
+{
+  width: 60%;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  /* background-color: yellow; */
+  padding: 5%;
+}
+
+.form-group
+{
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-group input
+{
+  filter: drop-shadow(0 5px 5px rgba(0,0,0,.7));
+}
+
+.restore_password .form-control
+{
+  border: none;
+  height: 50px;
+  width: 100%;
+}
+
+.restore_password .btn-primary
+{
+  margin-top: 30px;
+  padding: 13px 25px;
+  border: 2px solid #B0B1AB;
+  background: transparent;
+  width: 20%;
+  color: #B0B1AB;
+}
+
+.restore_password .btn-primary:hover
+{
+  color: #333;
+  background-color: #B0B1AB;
+}
+
+@media screen and (max-width:500px)
+{
+  h1
+  {
+    margin-top: 30px;
+    font-size: 20px;
+    filter: none;
+  }
+
+  p
+  {
+    font-size: 14px;
+  }
+
+  .restore_password .btn-primary
+  {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:800px) and (min-width:501px)
+{
+  h1
+  {
+    font-size: 1.7em;
+  }
+
+  .restore_password .btn-primary
+  {
+    width: 50%;
+  }
+}
